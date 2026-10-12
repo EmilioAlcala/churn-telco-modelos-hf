@@ -1,0 +1,5 @@
+modelo,id_hub,tarea,adaptacion,licencia,descargas_30d,acceso_restringido,params_millones
+TabPFN-3,Prior-Labs/tabpfn_3,Clasificación tabular,Ninguna (aprendizaje en contexto),other,19063,False,
+BERT-mini,google/bert_uncased_L-4_H-256_A-4,Clasificación de texto (serializado),Ajuste fino mínimo,apache-2.0,98877,False,
+DistilBERT-base,distilbert-base-uncased,Clasificación de texto (serializado),Ajuste fino mínimo,apache-2.0,7771141,False,67.0
+RoBERTa-base,roberta-base,Clasificación de texto (serializado),Ajuste fino mínimo,mit,8085334,False,124.7

@@ -1,0 +1,13 @@
+{
+  "python": "3.13.15",
+  "semilla": 42,
+  "gpu": "Tesla T4",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.18.0",
+  "datasets": "4.8.5",
+  "huggingface_hub": "1.33.0",
+  "tabpfn": "9.1.0"
+}

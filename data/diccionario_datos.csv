@@ -1,0 +1,22 @@
+﻿campo,tipo,descripcion
+customerID,texto,Identificador unico del cliente (no se usa como variable predictora).
+gender,categorica,Genero (Female/Male). Se excluye del modelo y se usa solo para auditoria de sesgo.
+SeniorCitizen,binaria 0/1,1 si el cliente es adulto mayor.
+Partner,Yes/No,Tiene pareja.
+Dependents,Yes/No,Tiene dependientes.
+tenure,numerica (meses),Meses de antiguedad como cliente.
+PhoneService,Yes/No,Contrata servicio telefonico.
+MultipleLines,categorica,Multiples lineas (Yes/No/No phone service).
+InternetService,categorica,Tipo de internet (DSL/Fiber optic/No).
+OnlineSecurity,categorica,Seguridad en linea (Yes/No/No internet service).
+OnlineBackup,categorica,Respaldo en linea.
+DeviceProtection,categorica,Proteccion de dispositivo.
+TechSupport,categorica,Soporte tecnico.
+StreamingTV,categorica,Streaming de TV.
+StreamingMovies,categorica,Streaming de peliculas.
+Contract,categorica,Tipo de contrato (Month-to-month/One year/Two year).
+PaperlessBilling,Yes/No,Facturacion electronica.
+PaymentMethod,categorica,Metodo de pago (4 categorias).
+MonthlyCharges,numerica (USD),Cargo mensual.
+TotalCharges,numerica (USD),Cargo total acumulado. 11 registros vacios (tenure=0) se imputan con 0.
+Churn,objetivo 0/1,1 = el cliente cancelo el servicio en el ultimo mes (Yes en el original).

@@ -1,0 +1,30 @@
+{
+  "umbrales": {
+    "precision_top15": 0.45,
+    "roc_auc": 0.8,
+    "min_estimados_400k": 60.0
+  },
+  "recomendado_hf": "TabPFN-3",
+  "equivalentes_hf": [
+    "TabPFN-3"
+  ],
+  "recomendado_global": "Regresi\u00f3n log\u00edstica",
+  "equivalentes_global": [
+    "Regresi\u00f3n log\u00edstica",
+    "TabPFN-3"
+  ],
+  "estado": {
+    "Regresi\u00f3n log\u00edstica": "ok",
+    "HistGradientBoosting": "ok",
+    "TabPFN-3": "ok",
+    "BERT-mini": "ok",
+    "DistilBERT-base": "ok",
+    "RoBERTa-base": "ok"
+  },
+  "heuristica_fase1": {
+    "roc_auc": 0.7860618373261915,
+    "precision_top15": 0.6037735849056604,
+    "recall_top15": 0.3416370106761566,
+    "lift_top15": 2.271134089840865
+  }
+}

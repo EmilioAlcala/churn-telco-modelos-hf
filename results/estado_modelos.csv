@@ -1,0 +1,7 @@
+modelo,estado
+Regresión logística,ok
+HistGradientBoosting,ok
+TabPFN-3,ok
+BERT-mini,ok
+DistilBERT-base,ok
+RoBERTa-base,ok
