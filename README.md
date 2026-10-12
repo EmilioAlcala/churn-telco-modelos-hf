@@ -83,4 +83,4 @@ Detalle completo en `results/metricas_comparativas.csv` y figuras `results/fig_*
 Contenerizar con Docker el modelo seleccionado y exponerlo mediante una API (p. ej. FastAPI, endpoint `/predict`), reutilizando `src/churn_utils.py`.
 
 ## Contacto / créditos
-Autor: Emilio · Asignatura: Gestión de Proyectos de Inteligencia Artificial (Tecmilenio) · Octubre 2026 · Dataset: IBM Sample Data Sets (Kaggle, `blastchar`).
+Autor: Emilio Alcalá · Asignatura: Gestión de Proyectos de Inteligencia Artificial (Tecmilenio) · Octubre 2026 · Dataset: IBM Sample Data Sets (Kaggle, `blastchar`).
